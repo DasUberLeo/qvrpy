@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     keywords=['QVR Pro', 'QVRPro', 'QNAP', 'IoT', 'Surveillance'],
     url="https://github.com/DasUberLeo/qvrpy",
+    download_url = 'https://github.com/DasUberLeo/qvrpy/archive/v0.1-alpha.tar.gz'
     python_requires='>=3.6',
     install_requires=['requests>=2.13.0'],
     packages=setuptools.find_packages(),
