@@ -12,11 +12,18 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords=['QVR Pro', 'QVRPro', 'QNAP', 'IoT', 'Surveillance'],
-    url="https://github.com/javatechy/dokr",
+    url="https://github.com/DasUberLeo/qvrpy",
+    python_requires='>=3.6',
+    install_requires=['requests>=2.13.0'],
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3.6",
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
+        "Natural Language :: English",
         "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3.6",
+        "Topic :: Home Automation",
+        "Topic :: System :: Hardware"
     ],
 )
